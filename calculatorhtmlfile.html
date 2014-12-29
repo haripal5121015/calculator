@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>
+		My calculator
+	</title>
+	<script type="text/javascript" src="calculatorjsfile.js">
+	</script>
+	<link type="text/css" rel="stylesheet" href="calculatorcssfile.css">
+ </head>
+<body>
+	<div id="divid">
+	<input type="text" id="resultbox" >
+	<input type="button" id="equal" value="=" onclick="resultsum(),saveresult()" class="button" >
+	</br>
+	<input type="button" id="seven" value="7" onclick="insert(7)" class="button">
+	<input type="button" id="eight" value="8" onclick="insert(8)" class="button">
+	<input type="button" id="nine" value="9" onclick="insert(9)" class="button">
+	<input type="button"  id="back" value="back" onclick="backbuttonresult()" class="button">
+	<input type="button"  id="cancel" value="cancel" onclick="" class="button">
+
+	<input type="button" id="four" value="4" onclick="insert(4)" class="button">
+	<input type="button" id="five" value="5" onclick="insert(5)" class="button">
+	<input type="button" id="six" value="6" onclick="insert(6)" class="button">
+	<input type="button" id="divide" value="/" onclick="operator(4)" class="button">
+	<input type="button" id="multiply" value="*" onclick="operator(3)" class="button"></br>
+
+
+	<input type="button"  id="one" value="1" onclick="insert(1)" class="button">
+	<input type="button" id="two" value="2" onclick="insert(2)" class="button">
+	<input type="button" id="three" value="3" onclick="insert(3)" class="button">
+	<input type="button" id="plus" value="+" onclick="operator(1)" class="button">
+	<input type="button" id="minus" value="-" onclick="operator(2)" class="button">
+	
+	<input type="button" id="zero" value="0" onclick="insert(0)" class="button">
+	<input type="button" id="decpiont" value="." onclick="" class="button">
+	<input type="button" id="c" value="c" onclick="clear6()" class="button">
+	<input type="button" id="lbrackets" value="(" onclick="" class="button">
+	<input type="button" id="rbrackets" value=")" onclick="" class="button">
+	
+	
+	
+	
+	</div>
+
+
+</body>
+</html>
